@@ -186,11 +186,11 @@ public class Controller extends JPanel implements ChangeListener {
 		LocalDate[] currentMonth = month.getDateArray(); // Get all 42 days that are displayed in the view
 		for (LocalDate date : currentMonth) {// *********************************************************************
 			JTextField label = new JTextField(String.valueOf(date.getDayOfMonth()));
-			label.setVisible(false);
-
-			if (date.getMonth() == Calendar.today.getMonth() && date.getYear() == Calendar.today.getYear()) {
-				label.setVisible(true);
-			}
+//			label.setVisible(false);
+//
+//			if (date.getMonth() == Calendar.today.getMonth() && date.getYear() == Calendar.today.getYear()) {
+//				label.setVisible(true);
+//			}
 
 			label.setEditable(false);
 			label.setHorizontalAlignment(JTextField.CENTER);
