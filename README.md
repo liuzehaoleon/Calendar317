@@ -1,5 +1,5 @@
 # Calendar317
-317 school work
+Event management application
 
 ## OverView
 Calendar317 is a software used to help people identify dates and record future events. It is multi-platform and developed on Mac and Windows. This software combines the advantages of different productivity tools. It is easy to use, lightweight and user friendly. It uses Java for the back end and Java GUI for the front-end, and it can run on any system that has a Java runtime environment installed. 
